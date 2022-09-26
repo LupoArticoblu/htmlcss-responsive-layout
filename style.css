@@ -101,7 +101,46 @@ header .head .menu{
 
 main .body .container{
   padding: 2rem 1rem;
+  text-align: center;
 }
+
+main section .application:first-child{
+  padding: 2rem 1rem 0 1rem;
+}
+
+main section .application{
+  margin-bottom: 1rem;
+  padding: 2rem 1rem;
+  background-color: lightblue;
+  border-radius: 20px;
+}
+
+main section .application h3{
+  color: dodgerblue;
+}
+
+main section .application p{
+  margin: 2rem 2rem;
+  text-align: left;
+}  
+
+main section .button{
+  display: block;
+  color:aliceblue;
+  padding: 1rem;
+  margin: 2rem;
+  background-color: dodgerblue;
+  border-radius: 20px;
+}
+
+main section img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+
 
 /* FOOTERS */
 
@@ -177,7 +216,15 @@ footer .footer-bottom .down{
 @media (min-width: 780px){
   .footer-top,
   .footer-bottom{
-    width: 80%;
+    max-width: 550px;
     margin: 0 auto;
   }  
+}
+
+@media (min-width: 1000){
+  .footer-top,
+  .footer-bottom{
+    max-width: 550px;
+    margin: 0 auto;
+  } 
 }
