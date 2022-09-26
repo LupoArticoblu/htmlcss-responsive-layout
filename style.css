@@ -12,8 +12,8 @@ ul li{
   list-style: none;
 }
 
-/* Header */
-header .head .container{
+/* HEADERS */
+header .head{
   height: 7vh;
   background-color: rgb(45, 136, 255);
   color: aliceblue;
@@ -95,4 +95,29 @@ header .head .menu{
     color: black;
     border-radius: 20px;
   }
+}
+
+/* MAINS */
+
+main .body .container{
+  padding: 2rem 1rem;
+}
+
+/* FOOTERS */
+
+footer .foot{
+  text-align: center;
+  color: aliceblue;
+}
+
+footer .footer-top{
+  height: 30vh;
+  padding: 2rem;
+  background-color: rgb(114, 74, 146);
+}
+
+footer .start{
+  font-size: small;
+  text-transform: uppercase;
+  font-family: thin;
 }
