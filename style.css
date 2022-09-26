@@ -108,16 +108,76 @@ main .body .container{
 footer .foot{
   text-align: center;
   color: aliceblue;
+  background-color: rgb(129, 57, 129);
 }
 
-footer .footer-top{
-  height: 30vh;
+footer .foot2{
+  text-align: center;
+  color: aliceblue;
+  background-color: #222222;
+} 
+
+
+.footer-top{
+  height: 60vh;
   padding: 2rem;
-  background-color: rgb(114, 74, 146);
 }
 
 footer .start{
   font-size: small;
   text-transform: uppercase;
-  font-family: thin;
+  font-family: sans-serif,thin;
+  padding: 1rem;
+}
+
+footer h1{
+  font-size: 3rem;
+  color: goldenrod;
+  padding: 2rem;
+}
+
+footer h2{
+  padding-top: 1rem;
+}
+
+footer .button{
+  display: block;
+  padding: 20px;
+  background-color: aliceblue;
+  color: rgb(129, 57, 129);
+  border-radius: 30px;
+  margin: 2rem;
+}
+
+footer .copy{
+  font-size: small;
+  font-family: sans-serif,thin;
+}
+
+.privacy{
+  color: aliceblue;
+}
+
+footer .footer-bottom{
+  height: 20vh;
+  background-color: #222222;
+}
+
+footer .footer-bottom .up,
+footer .footer-bottom .down{
+  padding: 2rem;
+  font-size: small;
+  font-family: sans-serif,thin;
+}
+
+.down a{
+  color: rgb(129, 57, 129);
+}
+
+@media (min-width: 780px){
+  .footer-top,
+  .footer-bottom{
+    width: 80%;
+    margin: 0 auto;
+  }  
 }
